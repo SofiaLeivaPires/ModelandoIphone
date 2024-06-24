@@ -1,0 +1,68 @@
+<svg width="916" height="851" viewBox="0 0 687 638.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(19.154998779296875, 387.7250061035156)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-190.8 652.69,-190.8 652.69,4 -4,4"/>
+<!-- iPhone -->
+<g id="node1" class="node">
+<title>iPhone</title>
+<polygon fill="none" stroke="black" points="322.73,-136.7 322.73,-186.3 377.62,-186.3 377.62,-136.7 322.73,-136.7"/>
+<text text-anchor="middle" x="350.17" y="-169.7" font-family="Times,serif" font-size="14.00">iPhone</text>
+<polyline fill="none" stroke="black" points="322.73,-161.5 377.62,-161.5"/>
+<text text-anchor="middle" x="350.17" y="-144.9" font-family="Times,serif" font-size="14.00"> </text>
+</g>
+<!-- ReprodutorMusical -->
+<g id="node2" class="node">
+<title>ReprodutorMusical</title>
+<polygon fill="none" stroke="black" points="0,-0.5 0,-99.7 244.34,-99.7 244.34,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="122.17" y="-83.1" font-family="Times,serif" font-size="14.00">ReprodutorMusical</text>
+<polyline fill="none" stroke="black" points="0,-74.9 244.34,-74.9"/>
+<text text-anchor="middle" x="122.17" y="-58.3" font-family="Times,serif" font-size="14.00">+ tocar(): void</text>
+<polyline fill="none" stroke="black" points="0,-50.1 244.34,-50.1"/>
+<text text-anchor="middle" x="122.17" y="-33.5" font-family="Times,serif" font-size="14.00">+ pausar(): void</text>
+<polyline fill="none" stroke="black" points="0,-25.3 244.34,-25.3"/>
+<text text-anchor="middle" x="122.17" y="-8.7" font-family="Times,serif" font-size="14.00">+ selecionarMusica(String musica): void</text>
+</g>
+<!-- iPhone&#45;&gt;ReprodutorMusical -->
+<g id="edge1" class="edge">
+<title>iPhone-&gt;ReprodutorMusical</title>
+<path fill="none" stroke="black" d="M322.67,-147.3C300.4,-136.62 267.44,-120.8 234.65,-105.07"/>
+<polygon fill="black" stroke="black" points="236.38,-102.02 225.85,-100.85 233.36,-108.33 236.38,-102.02"/>
+</g>
+<!-- AparelhoTelefonico -->
+<g id="node3" class="node">
+<title>AparelhoTelefonico</title>
+<polygon fill="none" stroke="black" points="262.6,-0.5 262.6,-99.7 437.74,-99.7 437.74,-0.5 262.6,-0.5"/>
+<text text-anchor="middle" x="350.17" y="-83.1" font-family="Times,serif" font-size="14.00">AparelhoTelefonico</text>
+<polyline fill="none" stroke="black" points="262.6,-74.9 437.74,-74.9"/>
+<text text-anchor="middle" x="350.17" y="-58.3" font-family="Times,serif" font-size="14.00">+ ligar(String numero): void</text>
+<polyline fill="none" stroke="black" points="262.6,-50.1 437.74,-50.1"/>
+<text text-anchor="middle" x="350.17" y="-33.5" font-family="Times,serif" font-size="14.00">+ atender(): void</text>
+<polyline fill="none" stroke="black" points="262.6,-25.3 437.74,-25.3"/>
+<text text-anchor="middle" x="350.17" y="-8.7" font-family="Times,serif" font-size="14.00">+ iniciarCorreioVoz(): void</text>
+</g>
+<!-- iPhone&#45;&gt;AparelhoTelefonico -->
+<g id="edge2" class="edge">
+<title>iPhone-&gt;AparelhoTelefonico</title>
+<path fill="none" stroke="black" d="M350.17,-136.22C350.17,-128.7 350.17,-120.05 350.17,-111.21"/>
+<polygon fill="black" stroke="black" points="353.67,-111.49 350.17,-101.49 346.67,-111.49 353.67,-111.49"/>
+</g>
+<!-- NavegadorNaInternet -->
+<g id="node4" class="node">
+<title>NavegadorNaInternet</title>
+<polygon fill="none" stroke="black" points="455.65,-0.5 455.65,-99.7 648.69,-99.7 648.69,-0.5 455.65,-0.5"/>
+<text text-anchor="middle" x="552.17" y="-83.1" font-family="Times,serif" font-size="14.00">NavegadorNaInternet</text>
+<polyline fill="none" stroke="black" points="455.65,-74.9 648.69,-74.9"/>
+<text text-anchor="middle" x="552.17" y="-58.3" font-family="Times,serif" font-size="14.00">+ exibirPagina(String url): void</text>
+<polyline fill="none" stroke="black" points="455.65,-50.1 648.69,-50.1"/>
+<text text-anchor="middle" x="552.17" y="-33.5" font-family="Times,serif" font-size="14.00">+ adicionarNovaAba(): void</text>
+<polyline fill="none" stroke="black" points="455.65,-25.3 648.69,-25.3"/>
+<text text-anchor="middle" x="552.17" y="-8.7" font-family="Times,serif" font-size="14.00">+ atualizarPagina(): void</text>
+</g>
+<!-- iPhone&#45;&gt;NavegadorNaInternet -->
+<g id="edge3" class="edge">
+<title>iPhone-&gt;NavegadorNaInternet</title>
+<path fill="none" stroke="black" d="M377.83,-145.52C397.27,-134.99 424.58,-120.2 451.82,-105.45"/>
+<polygon fill="black" stroke="black" points="453.38,-108.58 460.5,-100.74 450.04,-102.43 453.38,-108.58"/>
+</g>
+</g>
+</svg>
